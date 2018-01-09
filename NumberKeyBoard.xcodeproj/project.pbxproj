@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DC5A9620036AE8007B3F0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DC5A9520036AE8007B3F0C /* AppDelegate.m */; };
+		26DC5A9920036AE8007B3F0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DC5A9820036AE8007B3F0C /* ViewController.m */; };
+		26DC5A9C20036AE8007B3F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DC5A9A20036AE8007B3F0C /* Main.storyboard */; };
+		26DC5A9E20036AE8007B3F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DC5A9D20036AE8007B3F0C /* Assets.xcassets */; };
+		26DC5AA120036AE8007B3F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DC5A9F20036AE8007B3F0C /* LaunchScreen.storyboard */; };
+		26DC5AA420036AE8007B3F0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DC5AA320036AE8007B3F0C /* main.m */; };
+		26DC5AAD20036B02007B3F0C /* YMKeyPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DC5AAC20036B02007B3F0C /* YMKeyPad.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26DC5A9120036AE8007B3F0C /* NumberKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DC5A9420036AE8007B3F0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26DC5A9520036AE8007B3F0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26DC5A9720036AE8007B3F0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26DC5A9820036AE8007B3F0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26DC5A9B20036AE8007B3F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26DC5A9D20036AE8007B3F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26DC5AA020036AE8007B3F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26DC5AA220036AE8007B3F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DC5AA320036AE8007B3F0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26DC5AAB20036B02007B3F0C /* YMKeyPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKeyPad.h; sourceTree = "<group>"; };
+		26DC5AAC20036B02007B3F0C /* YMKeyPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMKeyPad.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DC5A8E20036AE8007B3F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26DC5A8820036AE8007B3F0C = {
+			isa = PBXGroup;
+			children = (
+				26DC5A9320036AE8007B3F0C /* NumberKeyBoard */,
+				26DC5A9220036AE8007B3F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26DC5A9220036AE8007B3F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DC5A9120036AE8007B3F0C /* NumberKeyBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DC5A9320036AE8007B3F0C /* NumberKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				26DC5AAA20036B02007B3F0C /* keyboard */,
+				26DC5A9420036AE8007B3F0C /* AppDelegate.h */,
+				26DC5A9520036AE8007B3F0C /* AppDelegate.m */,
+				26DC5A9720036AE8007B3F0C /* ViewController.h */,
+				26DC5A9820036AE8007B3F0C /* ViewController.m */,
+				26DC5A9A20036AE8007B3F0C /* Main.storyboard */,
+				26DC5A9D20036AE8007B3F0C /* Assets.xcassets */,
+				26DC5A9F20036AE8007B3F0C /* LaunchScreen.storyboard */,
+				26DC5AA220036AE8007B3F0C /* Info.plist */,
+				26DC5AA320036AE8007B3F0C /* main.m */,
+			);
+			path = NumberKeyBoard;
+			sourceTree = "<group>";
+		};
+		26DC5AAA20036B02007B3F0C /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				26DC5AAB20036B02007B3F0C /* YMKeyPad.h */,
+				26DC5AAC20036B02007B3F0C /* YMKeyPad.m */,
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26DC5A9020036AE8007B3F0C /* NumberKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DC5AA720036AE8007B3F0C /* Build configuration list for PBXNativeTarget "NumberKeyBoard" */;
+			buildPhases = (
+				26DC5A8D20036AE8007B3F0C /* Sources */,
+				26DC5A8E20036AE8007B3F0C /* Frameworks */,
+				26DC5A8F20036AE8007B3F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberKeyBoard;
+			productName = NumberKeyBoard;
+			productReference = 26DC5A9120036AE8007B3F0C /* NumberKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DC5A8920036AE8007B3F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Gjmk;
+				TargetAttributes = {
+					26DC5A9020036AE8007B3F0C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26DC5A8C20036AE8007B3F0C /* Build configuration list for PBXProject "NumberKeyBoard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26DC5A8820036AE8007B3F0C;
+			productRefGroup = 26DC5A9220036AE8007B3F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DC5A9020036AE8007B3F0C /* NumberKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26DC5A8F20036AE8007B3F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DC5AA120036AE8007B3F0C /* LaunchScreen.storyboard in Resources */,
+				26DC5A9E20036AE8007B3F0C /* Assets.xcassets in Resources */,
+				26DC5A9C20036AE8007B3F0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DC5A8D20036AE8007B3F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DC5A9920036AE8007B3F0C /* ViewController.m in Sources */,
+				26DC5AAD20036B02007B3F0C /* YMKeyPad.m in Sources */,
+				26DC5AA420036AE8007B3F0C /* main.m in Sources */,
+				26DC5A9620036AE8007B3F0C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26DC5A9A20036AE8007B3F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DC5A9B20036AE8007B3F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26DC5A9F20036AE8007B3F0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DC5AA020036AE8007B3F0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26DC5AA520036AE8007B3F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26DC5AA620036AE8007B3F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DC5AA820036AE8007B3F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NumberKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkm.keyboard.NumberKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26DC5AA920036AE8007B3F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NumberKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkm.keyboard.NumberKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DC5A8C20036AE8007B3F0C /* Build configuration list for PBXProject "NumberKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DC5AA520036AE8007B3F0C /* Debug */,
+				26DC5AA620036AE8007B3F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DC5AA720036AE8007B3F0C /* Build configuration list for PBXNativeTarget "NumberKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DC5AA820036AE8007B3F0C /* Debug */,
+				26DC5AA920036AE8007B3F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26DC5A8920036AE8007B3F0C /* Project object */;
+}
