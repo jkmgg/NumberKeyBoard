@@ -23,16 +23,15 @@
     self.textFied.textColor = [UIColor redColor];
     self.textFied.text = @"¥0.00";
     self.textFied.tintColor = [UIColor redColor];
-    YMKeyPad * keyboard = [YMKeyPad keyboard];
+    YMKeyPad * keyboard = [YMKeyPad keyboard:defualtKeyboard];
     keyboard.delegate = self;
     keyboard.defaultContent = self.AmountNumber;
-    keyboard.frame = CGRectMake(0, 0, self.view.frame.size.width, 240);
     self.textFied.inputView = keyboard;
     [self.textFied becomeFirstResponder];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-//键盘点击代理   
+//键盘点击代理
 - (void)keyPad:(YMKeyPad *)keyboard didSelectkey:(NSString *)keyContent{
     
     if (keyContent.length == 0) {
